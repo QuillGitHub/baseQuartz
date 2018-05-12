@@ -13,6 +13,7 @@ import java.util.Date;
  **/
 
 public class HelloScheduler {
+
     public static void main(String[] args) throws SchedulerException {
 
         // 创建一个 JobDetail 实例，将该实例与 HelloJob 实例绑定
@@ -39,13 +40,6 @@ public class HelloScheduler {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         System.out.println("Current Time Is : " +simpleDateFormat.format(date));
         scheduler.scheduleJob(jobDeatil,trigger);//绑定一起，传入scheduler
-
-
-
-
-
-
-
 
     }
 }
