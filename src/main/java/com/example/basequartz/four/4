@@ -1,0 +1,44 @@
+E:\Work\JDK\jdk1.8.0_152\bin\java "-javaagent:E:\Work\IntelliJ IDEA 2017.2.5\lib\idea_rt.jar=64975:E:\Work\IntelliJ IDEA 2017.2.5\bin" -Dfile.encoding=UTF-8 -classpath E:\Work\JDK\jdk1.8.0_152\jre\lib\charsets.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\deploy.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\ext\access-bridge-64.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\ext\cldrdata.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\ext\dnsns.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\ext\jaccess.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\ext\jfxrt.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\ext\localedata.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\ext\nashorn.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\ext\sunec.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\ext\sunjce_provider.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\ext\sunmscapi.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\ext\sunpkcs11.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\ext\zipfs.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\javaws.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\jce.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\jfr.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\jfxswt.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\jsse.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\management-agent.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\plugin.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\resources.jar;E:\Work\JDK\jdk1.8.0_152\jre\lib\rt.jar;E:\Work\IDEA_Workspace\basequartz\target\classes;E:\Work\Apache\maven\maven\amvn\org\quartz-scheduler\quartz\2.2.3\quartz-2.2.3.jar;E:\Work\Apache\maven\maven\amvn\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;E:\Work\Apache\maven\maven\amvn\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\boot\spring-boot-starter-web\2.0.2.RELEASE\spring-boot-starter-web-2.0.2.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\boot\spring-boot-starter\2.0.2.RELEASE\spring-boot-starter-2.0.2.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\boot\spring-boot\2.0.2.RELEASE\spring-boot-2.0.2.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\boot\spring-boot-autoconfigure\2.0.2.RELEASE\spring-boot-autoconfigure-2.0.2.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\boot\spring-boot-starter-logging\2.0.2.RELEASE\spring-boot-starter-logging-2.0.2.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;E:\Work\Apache\maven\maven\amvn\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;E:\Work\Apache\maven\maven\amvn\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;E:\Work\Apache\maven\maven\amvn\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;E:\Work\Apache\maven\maven\amvn\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;E:\Work\Apache\maven\maven\amvn\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;E:\Work\Apache\maven\maven\amvn\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\boot\spring-boot-starter-json\2.0.2.RELEASE\spring-boot-starter-json-2.0.2.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;E:\Work\Apache\maven\maven\amvn\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;E:\Work\Apache\maven\maven\amvn\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;E:\Work\Apache\maven\maven\amvn\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.5\jackson-datatype-jdk8-2.9.5.jar;E:\Work\Apache\maven\maven\amvn\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.5\jackson-datatype-jsr310-2.9.5.jar;E:\Work\Apache\maven\maven\amvn\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.5\jackson-module-parameter-names-2.9.5.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\boot\spring-boot-starter-tomcat\2.0.2.RELEASE\spring-boot-starter-tomcat-2.0.2.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\org\apache\tomcat\embed\tomcat-embed-core\8.5.31\tomcat-embed-core-8.5.31.jar;E:\Work\Apache\maven\maven\amvn\org\apache\tomcat\embed\tomcat-embed-el\8.5.31\tomcat-embed-el-8.5.31.jar;E:\Work\Apache\maven\maven\amvn\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.31\tomcat-embed-websocket-8.5.31.jar;E:\Work\Apache\maven\maven\amvn\org\hibernate\validator\hibernate-validator\6.0.9.Final\hibernate-validator-6.0.9.Final.jar;E:\Work\Apache\maven\maven\amvn\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;E:\Work\Apache\maven\maven\amvn\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;E:\Work\Apache\maven\maven\amvn\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\spring-web\5.0.6.RELEASE\spring-web-5.0.6.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\spring-beans\5.0.6.RELEASE\spring-beans-5.0.6.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\spring-webmvc\5.0.6.RELEASE\spring-webmvc-5.0.6.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\spring-aop\5.0.6.RELEASE\spring-aop-5.0.6.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\spring-context\5.0.6.RELEASE\spring-context-5.0.6.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\spring-expression\5.0.6.RELEASE\spring-expression-5.0.6.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\spring-core\5.0.6.RELEASE\spring-core-5.0.6.RELEASE.jar;E:\Work\Apache\maven\maven\amvn\org\springframework\spring-jcl\5.0.6.RELEASE\spring-jcl-5.0.6.RELEASE.jar com.example.basequartz.four.Fourcheduler
+15:01:48.824 [main] INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+15:01:48.830 [main] INFO org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+15:01:48.845 [main] INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+15:01:48.845 [main] INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+15:01:48.846 [main] INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+15:01:48.847 [main] INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+15:01:48.848 [main] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+15:01:48.848 [main] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+15:01:48.848 [main] INFO org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+15:01:48.848 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG org.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+Current Time Is : 2018-05-14 15:01:48
+15:01:48.850 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+15:01:48.852 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'DEFAULT.myjob', class=com.example.basequartz.four.FourJob
+15:01:48.857 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+15:01:48.857 [DefaultQuartzScheduler_Worker-1] DEBUG org.quartz.core.JobRunShell - Calling execute on job DEFAULT.myjob
+Current Exec Time Is : 2018-05-14 15:01:48
+My name and group are :myjob:DEFAULT
+My Trigger name and group are :myTrigger:group1
+--------方式二：getter和setter获取---------
+--------message is : myTrigger1
+--------jobFloatValue is : 3.14
+--------triDoubleValue is : 2.0
+
+15:01:50.689 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'DEFAULT.myjob', class=com.example.basequartz.four.FourJob
+15:01:50.690 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+15:01:50.690 [DefaultQuartzScheduler_Worker-2] DEBUG org.quartz.core.JobRunShell - Calling execute on job DEFAULT.myjob
+Current Exec Time Is : 2018-05-14 15:01:50
+My name and group are :myjob:DEFAULT
+My Trigger name and group are :myTrigger:group1
+--------方式二：getter和setter获取---------
+--------message is : myTrigger1
+--------jobFloatValue is : 3.14
+--------triDoubleValue is : 2.0
+
+
+Process finished with exit code 1
