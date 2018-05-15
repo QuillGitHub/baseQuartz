@@ -1,0 +1,28 @@
+1、2017年内每天10点15分触发一次（0 15 10 ? * * 2017）
+--------Current Time Is : 2017-05-15 10:14:36
+10:14:36.472 [main] INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+10:14:36.476 [main] INFO org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+10:14:36.491 [main] INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:14:36.491 [main] INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+10:14:36.493 [main] INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+10:14:36.494 [main] INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+10:14:36.494 [main] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+10:14:36.494 [main] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+10:14:36.498 [main] INFO org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+10:14:36.499 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+10:15:00.005 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG org.quartz.simpl.PropertySettingJobFactory - Producing instance of Job 'jobgroup1.myjob', class=com.example.basequartz.eight.EightJob
+10:15:00.007 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG org.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+10:15:00.008 [DefaultQuartzScheduler_Worker-1] DEBUG org.quartz.core.JobRunShell - Calling execute on job jobgroup1.myjob
+Current Exec Time Is : 2017-05-15 10:15:00
+Hello World!
+
+Process finished with exit code 1
+
+2、每天的14点整至14点59分55秒，以及18点整至18点59分55秒 每五秒触发一次（0/5 * 14,18 * * ? ）
